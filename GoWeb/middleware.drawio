@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2020-12-13T06:53:06.353Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" version="14.0.1" etag="tcSpbFP8wgPED3Lnkpxm" type="github"><diagram id="TM37tiQ-h3oI6vZYpgEh">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-13T06:59:20.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="NI2KS_2a2d7_6Dhx5VY_" version="14.0.1" type="github">
+  <diagram id="TM37tiQ-h3oI6vZYpgEh" name="第 1 页">
+    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SjifaQKChglQ1tHk07vl-1" value="客户端" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SjifaQKChglQ1tHk07vl-2" value="/login" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SjifaQKChglQ1tHk07vl-3" value="/order" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="330" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SjifaQKChglQ1tHk07vl-4" value="/personal" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="500" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SjifaQKChglQ1tHk07vl-5" value="" style="endArrow=classic;html=1;strokeColor=#006658;fillColor=#21C0A5;fontColor=#5C5C5C;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="SjifaQKChglQ1tHk07vl-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="370" as="sourcePoint" />
+            <mxPoint x="250" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SjifaQKChglQ1tHk07vl-6" value="" style="endArrow=classic;html=1;strokeColor=#006658;fillColor=#21C0A5;fontColor=#5C5C5C;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.05;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SjifaQKChglQ1tHk07vl-1" target="SjifaQKChglQ1tHk07vl-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="380" as="sourcePoint" />
+            <mxPoint x="440" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SjifaQKChglQ1tHk07vl-7" value="" style="endArrow=classic;html=1;strokeColor=#006658;fillColor=#21C0A5;fontColor=#5C5C5C;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="SjifaQKChglQ1tHk07vl-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="370" as="sourcePoint" />
+            <mxPoint x="434" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SjifaQKChglQ1tHk07vl-8" value="客户端可以访问任意页面，这种情况一般是不允许的，需要用户登录后，才可以访问某些页面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#5C5C5C;" vertex="1" parent="1">
+          <mxGeometry x="190" y="110" width="510" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SjifaQKChglQ1tHk07vl-9" value="" style="endArrow=none;html=1;strokeColor=#006658;fillColor=#21C0A5;fontColor=#5C5C5C;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="560" as="sourcePoint" />
+            <mxPoint x="370" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SjifaQKChglQ1tHk07vl-10" value="将这两个页面与客户端隔开&lt;br&gt;在这里添加一个中间件，让每次访问这些页面之前，进行一些鉴权操作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#5C5C5C;" vertex="1" parent="1">
+          <mxGeometry x="110" y="560" width="390" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
