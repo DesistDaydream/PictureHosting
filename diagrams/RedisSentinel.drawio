@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-02-13T04:54:24.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="KIJH52PKscI0FWRLeDw2" version="14.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-13T04:59:58.152Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="uz2Czywqf4XPwHIZae_p" version="14.3.1" type="github">
   <diagram id="T0xY0QAwstkkgB5xiP8V" name="第 1 页">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="eV8SD70ivV0xZ5FAF14y-1" value="" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="1">
+        <mxCell id="eV8SD70ivV0xZ5FAF14y-1" value="Redis&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;Replication 模式&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="810" y="345" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="eV8SD70ivV0xZ5FAF14y-2" value="Master" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/png,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;rounded=1;" vertex="1" parent="1">
@@ -27,15 +27,15 @@
         <mxCell id="eV8SD70ivV0xZ5FAF14y-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="eV8SD70ivV0xZ5FAF14y-9" target="eV8SD70ivV0xZ5FAF14y-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="200" y="240" />
-              <mxPoint x="730" y="240" />
+              <mxPoint x="200" y="270" />
+              <mxPoint x="730" y="270" />
               <mxPoint x="730" y="408" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="eV8SD70ivV0xZ5FAF14y-8" value="&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;3.客户端拿着获取到的信息&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;去连接 Master&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eV8SD70ivV0xZ5FAF14y-7">
           <mxGeometry x="-0.1815" y="-4" relative="1" as="geometry">
-            <mxPoint x="66.67" y="6" as="offset" />
+            <mxPoint x="26" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eV8SD70ivV0xZ5FAF14y-9" value="Client" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;" vertex="1" parent="1">
@@ -68,6 +68,9 @@
         </mxCell>
         <mxCell id="eV8SD70ivV0xZ5FAF14y-17" value="Sentinel" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;gradientColor=#7ea6e0;" vertex="1" parent="1">
           <mxGeometry x="505" y="460" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eV8SD70ivV0xZ5FAF14y-18" value="&lt;span style=&quot;font-size: 35px&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;Redis Sentinel 架构&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="150" width="560" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
